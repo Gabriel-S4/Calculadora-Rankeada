@@ -24,7 +24,7 @@ function ranking(Vitorias, Derrotas){
         else if (saldoVitorias >=101){
             nivel = "Imortal"
         }
-      return console.log("O herói tem um saldo de " + saldoVitorias +" e está no nível " + nivel)
+      return console.log(`O herói tem um saldo de ${saldoVitorias} e está no nível ${nivel}`)
     }
     
     ranking(151,36)
